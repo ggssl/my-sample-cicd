@@ -14,6 +14,11 @@ public class SampleeApplication {
 	}
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello Springboot^_____^V!!!";
+		return "안녕 Github Actions!!!";
+	}
+	
+	@GetMapping("/spring")
+	public String spring() {
+		return " 봄이다~!";
 	}
 }
